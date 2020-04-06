@@ -36,6 +36,37 @@ const siteContent = {
     "copyright" : "Copyright Great Idea! 2018"
   },
 };
+let title = document.querySelector('title')
+title.textContent = 'Great Idea!'
+
+nav = document.getElementsByTagName('a')
+nav[0].textContent = 'Services'
+nav[1].textContent = 'Product'
+nav[2].textContent = 'Vision'
+nav[3].textContent = 'Features'
+nav[4].textContent = 'About'
+nav[5].textContent = 'Contact'
+
+let ctaImg = document.querySelector('#cta-img')
+ctaImg.src = 'img/header-img.png'
+
+let newT = document.createElement('ctaText');
+let textH1 = document.querySelector('newT, h1')
+let button = document.querySelector('newT, button')
+
+textH1.textContent = 'DOM IS AWESOME!'
+button.textContent = 'Get Started'
+
+
+let midText = document.querySelector('.text-content')
+
+let midTexts = document.querySelector('midText, h4')
+
+let midTextContent = document.querySelector('midText, p')
+
+let midImg = document.querySelector('.middle-img')
+midImg.src = 'img/mid-page-accent.jpg'
+
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
